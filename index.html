@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Regex-Text-App</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Enter Text</h2>
+        <div>
+            <textarea name="text" id="txt" cols="30" rows="10"></textarea>
+            <textarea name="textrsl" id="txtResult" cols="30" rows="10" disabled></textarea>
+        </div>
+        <br>
+        <button class="btn-result" onclick="runRegex()">Results</button> 
+        <input type="radio" name="choice" value="text" id="1">
+        <label for="1">Text</label>
+        <input type="radio" name="choice" value="number" id="2">
+        <label for="2">Numbers</label>
+        <input type="radio" name="choice" value="character" id="3">
+        <label for="3">Character</label>
+    </div>
+        
+    <script src="app.js"></script>
+</body>
+</html>
